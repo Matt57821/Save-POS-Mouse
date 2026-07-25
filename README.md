@@ -45,5 +45,6 @@ Follow these steps to set up and run the project from scratch on Windows 11:
    pip install pyautogui keyboard
 
 ### Step 4: Run
-1. Run `python mouse_tp.py` in the **Administrator Command Prompt**
-2. Or just run the file as **Administrator**
+1. Go to the folder that have the python file in it with the **Administrator Command Prompt** by running cd "C:\Users\user\folder\your folder"
+3. Run `python mouse_tp.py` in the **Administrator Command Prompt**
+4. Or just run the file as **Administrator**
