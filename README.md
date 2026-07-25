@@ -35,11 +35,13 @@ Follow these steps to set up and run the project from scratch on Windows 11:
 
 ### Step 2: Create Your Script File
 1. Create a new folder on your computer (e.g., `C:\MouseTeleporter`).
-2. Inside that folder, create a file named `mouse_tp_gui.pyw` *(using `.pyw` ensures no black command prompt window appears when running!)*.
-3. Open `mouse_tp_gui.pyw` with Notepad or any text editor, paste the GUI code into it, and save.
+2. Inside that folder, download file named `mouse_tp_gui.pyw`.
 
 ### Step 3: Install Required Dependencies
 1. Press `Win + S`, type `cmd`, right-click **Command Prompt**, and select **Run as administrator**.
 2. Run the following command:
    ```cmd
    pip install pyautogui keyboard
+
+### Step 4: Run
+1. Just run the script as **Administrator**
