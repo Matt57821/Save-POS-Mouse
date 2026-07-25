@@ -44,4 +44,4 @@ Follow these steps to set up and run the project from scratch on Windows 11:
    pip install pyautogui keyboard
 
 ### Step 4: Run
-1. Just run the script as **Administrator**
+1. Just run the script as **Administrator** (If it's ask what app to open with, choose python)
