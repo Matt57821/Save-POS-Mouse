@@ -1,4 +1,4 @@
-# Mouse POS Saver & Teleporter (GUI Edition)
+# Mouse POS Saver & Teleporter
 
 A lightweight Windows 11 desktop widget built with Python and Tkinter. It lets you save your mouse cursor's exact screen coordinates with a hotkey and instant-teleport back to them anytime via a clean, floating dark-mode overlay window—no ugly console needed!
 
