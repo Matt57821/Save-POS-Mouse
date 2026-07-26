@@ -1,16 +1,17 @@
 # Mouse POS Saver & Teleporter
 
-A lightweight Windows 11 desktop widget built with Python and Tkinter. It lets you save your mouse cursor's exact screen coordinates with a hotkey and instant-teleport back to them anytime via a clean, floating dark-mode overlay window—no ugly console needed!
+A sleek, modern Windows 11 desktop widget built with Python and CustomTkinter. It lets you save your mouse cursor's exact screen coordinates with global hotkeys (or UI buttons) and instant-teleport back to them anytime via a clean, floating dark-mode overlay window.
 
 ---
 
 ## Features
 
-- **Floating Dark Theme Overlay:** Stays on top of games and apps so you can always check your saved coordinates.
-- **Instant Coordinate Saving:** Press a quick shortcut to snapshot your `(X, Y)` cursor position.
-- **Persistent Memory:** Teleport as many times as you want without losing your target point.
-- **Global Hotkeys:** Works across all Windows 11 applications, games, and full-screen windows.
-- **Console-Free:** Runs cleanly as a native desktop window using `.pyw`.
+- **Modern Windows 11 UI:** Dark-mode card layout with rounded corners, custom badging, and smooth typography.
+- **Floating Overlay:** Stays on top of apps and games (`topmost`) so you can inspect your saved target at any time.
+- **Global Hotkeys:** Works seamlessly across Windows 11 using native Win32 API calls—no extra key-logging drivers needed.
+- **Manual Action Buttons:** Trigger saves or teleports directly from the interface if you prefer clicking.
+- **No Admin Required:** Runs as a standard background app without requiring elevated admin permissions.
+- **Console-Free:** Launches cleanly as a native desktop utility via `.pyw`.
 
 ---
 
@@ -18,30 +19,25 @@ A lightweight Windows 11 desktop widget built with Python and Tkinter. It lets y
 
 | Action | Default Keybind | Description |
 | :--- | :--- | :--- |
-| **Save Position** | `Ctrl` + `Alt` + `S` | Captures current mouse `(X, Y)` position |
-| **Teleport Mouse** | `Ctrl` + `Alt` + `T` | Instantly moves cursor to saved position |
-
-*(Keybinds can be easily customized directly inside the script!)*
+| **Save Position** | `Ctrl` + `Alt` + `S` | Captures your current mouse `(X, Y)` position |
+| **Teleport Mouse** | `Ctrl` + `Alt` + `T` | Instantly teleports cursor to saved coordinates |
 
 ---
 
 ## Step-by-Step Setup Guide
 
-Follow these steps to set up and run the project from scratch on Windows 11:
+Follow these steps to set up and run the project on Windows 11:
 
 ### Step 1: Install Python
 1. Download Python from [python.org](https://www.python.org/downloads/).
 2. Run the installer and **make sure to check the box** that says **"Add python.exe to PATH"** before clicking Install.
 
-### Step 2: Create Your Script File
+### Step 2: Download the Script
 1. Create a new folder on your computer (e.g., `C:\MouseTeleporter`).
-2. Inside that folder, download file named `mouse_tp_gui.pyw`.
+2. Save your script inside that folder as `mouse_teleporter.pyw`.
 
 ### Step 3: Install Required Dependencies
-1. Press `Win + S`, type `cmd`, right-click **Command Prompt**, and select **Run as administrator**.
-2. Run the following command:
-   ```cmd
-   pip install pyautogui keyboard
+Open **Command Prompt** or **PowerShell** and run:
 
-### Step 4: Run
-1. Just run the script as **Administrator** (If it's ask what app to open with, choose python)
+```cmd
+pip install customtkinter
