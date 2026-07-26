@@ -4,7 +4,7 @@ A sleek, modern Windows 11 desktop widget built with Python and CustomTkinter. I
 
 <img width="369" height="356" alt="image" src="https://github.com/user-attachments/assets/b6abdd7e-095a-41ae-8467-31cf9862ba51" />
 
-**THIS WINDOWS WILL BE ALWAYS ON TOP**
+**THIS WINDOW WILL BE ALWAYS ON TOP**
 
 ---
 
