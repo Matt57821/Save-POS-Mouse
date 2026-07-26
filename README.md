@@ -3,6 +3,7 @@
 A sleek, modern Windows 11 desktop widget built with Python and CustomTkinter. It lets you save your mouse cursor's exact screen coordinates with global hotkeys (or UI buttons) and instant-teleport back to them anytime via a clean, floating dark-mode overlay window.
 
 <img width="369" height="356" alt="image" src="https://github.com/user-attachments/assets/b6abdd7e-095a-41ae-8467-31cf9862ba51" />
+
 **THIS WINDOWS WILL BE ALWAYS ON TOP**
 
 ---
