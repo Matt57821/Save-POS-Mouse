@@ -34,10 +34,19 @@ Follow these steps to set up and run the project on Windows 11:
 
 ### Step 2: Download the Script
 1. Create a new folder on your computer (e.g., `C:\MouseTeleporter`).
-2. Save your script inside that folder as `mouse_teleporter.pyw`.
+2. Save your script inside that folder as `mouse_tp.pyw`.
 
 ### Step 3: Install Required Dependencies
 Open **Command Prompt** or **PowerShell** and run:
 
 ```cmd
 pip install customtkinter
+```
+
+### Step 4: Use
+Double click the file or run:
+
+```cmd
+pythonw mouse_tp.pyw
+```
+**Run this in the folder**
